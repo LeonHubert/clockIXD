@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Audiowide');
+
+.container{
+	width: 100%;
+	display: flex;
+	height: 100vh;
+	justify-content: center;
+}
+
+.column	
+{
+	flex: 100%;
+	max-width: 25%;
+	padding: 10px;
+	margin: 10px;
+	justify-content: center;
+	text-align: center;
+	font-family: 'Audiowide', cursive;
+	font-size: 3.5em;
+	align-self: center;
+}
+	
+body
+{
+	background-image: url("../img/bg.png");
+	height: 100%; 
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+img
+{
+	max-width: 25%;
+	max-height: 25%;
+}
+
+@media only screen and (min-width: 600px)
+{
+	.column	
+	{
+		font-size: 4.5em;
+	}
+	img
+	{
+		max-width: 45%;
+		max-height: 45%;
+	}
+	.column	
+	{
+		justify-content: center;
+		align-self: center;
+	}
+}
+
+@media only screen and (min-width: 900px)
+{
+	.column	
+	{
+		font-size: 4em;
+	}
+	img
+	{
+		max-width: 35%;
+		max-height: 35%;
+	}	
+	.column	
+	{
+		justify-content: center;
+		align-self: center;
+	}
+}
+
+@media only screen and (min-width: 1366px) 
+{
+	.column	
+	{
+		font-size: 3.5em;
+	}
+	img
+	{
+		max-width: 25%;
+		max-height: 25%;
+	}	
+	.column	
+	{
+		justify-content: center;
+		align-self: center;
+	}
+}
